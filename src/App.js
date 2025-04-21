@@ -192,7 +192,7 @@ function App() {
               </li>
             </ul>
             <div className="language">
-              <a className="current" href="">
+              <a className="current" href="https://www.neowiz.com/">
                 KR
               </a>
             </div>
@@ -205,28 +205,43 @@ function App() {
             <div className="Slidesbackground">
               <div className="mySlides fade">
                 <a href="https://www.liesofp.com/ko-kr">
-                  <img className="slideshow-image pc" src={mainVisual1} />
+                  <img
+                    className="slideshow-image pc"
+                    src={mainVisual1}
+                    alt=""
+                  />
                   <img
                     className="slideshow-image mobile"
                     src={mainVisualMobile1}
+                    alt=""
                   />
                 </a>
               </div>
               <div className="mySlides fade">
                 <a href="https://www.browndust2.com/ko-kr/">
-                  <img className="slideshow-image pc" src={mainVisual2} />
+                  <img
+                    className="slideshow-image pc"
+                    src={mainVisual2}
+                    alt=""
+                  />
                   <img
                     className="slideshow-image mobile"
                     src={mainVisualMobile2}
+                    alt=""
                   />
                 </a>
               </div>
               <div className="mySlides fade">
                 <a href="https://play.google.com/store/apps/details?id=com.hidea.cat&pli=1">
-                  <img className="slideshow-image pc" src={mainVisual3} />
+                  <img
+                    className="slideshow-image pc"
+                    src={mainVisual3}
+                    alt=""
+                  />
                   <img
                     className="slideshow-image mobile"
                     src={mainVisualMobile3}
+                    alt=""
                   />
                 </a>
               </div>
@@ -405,7 +420,7 @@ function App() {
           <div className="right">
             <div className="content-04">
               <a href="https://www.youtube.com/channel/UCPxSQrpLyon5LA_19oYmaDQ">
-                <img src={footerIconYoutube} />
+                <img src={footerIconYoutube} alt="" />
               </a>
               <a href="https://www.instagram.com/neowiz_official/">
                 <img alt="" src={footerIconInsta} />
