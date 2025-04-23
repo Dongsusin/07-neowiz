@@ -26,7 +26,7 @@ header {
   /*높이가 120px로 정했기 때문에 서브메뉴는 보이지 않는다*/
   position: fixed;
   background-color: transparent;
-  z-index: 1;
+  z-index: 100;
   top: 0;
   transition: top 0.2s ease-in-out;
   background-color: transparent;
@@ -224,7 +224,6 @@ header {
   .sub-content {
     font-size: 22px;
     font-weight: 300;
-    line-height: normal;
     color: #ffffff;
     height: 160px;
     width: inherit;
@@ -232,8 +231,6 @@ header {
     flex-direction: column;
     justify-content: flex-end;
     border-radius: 0px 0px 16px 16px;
-    position: absolute;
-    z-index: 1;
   }
   .desc {
     letter-spacing: -0.55px;
