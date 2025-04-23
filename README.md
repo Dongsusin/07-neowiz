@@ -1,6 +1,7 @@
 # 🐣 NEOWIZ 클론 사이트
 
 **🚀 배포 링크**: [클론 사이트 바로가기](https://lustrous-syrniki-282361.netlify.app/)
+**🚀 블로그**: [블로그 바로가기](https://blog.naver.com/auroratime020715/223843545261)
 
 React를 이용하여 만들어본 neowiz 클론사이트 입니다.
 
