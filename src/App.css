@@ -116,7 +116,8 @@ header {
     }
   }
 }
-.scrolled {
+.scrolled,
+header:hover {
   background-color: black;
 }
 /*visual*/
@@ -429,7 +430,6 @@ header {
     flex-direction: row;
     align-items: flex-start;
     gap: 10px;
-    cursor: pointer;
   }
   .white {
     border: 0;
@@ -445,6 +445,7 @@ header {
     font-size: 16px;
     font-weight: 500;
     color: #0f0f10;
+    cursor: pointer;
   }
   .black {
     display: flex;
@@ -458,6 +459,7 @@ header {
     font-size: 16px;
     font-weight: 500;
     color: #dcdee4;
+    cursor: pointer;
   }
 }
 /*contact*/
@@ -633,6 +635,7 @@ footer {
   }
 }
 @media screen and (max-width: 1024px) {
+  header .innerHeader,
   #games .title,
   #news .container,
   #careers .container,
@@ -781,17 +784,18 @@ footer {
   }
 }
 @media screen and (max-width: 426px) {
+  header .innerHeader,
   #games .title,
   #news .container,
   #careers .container,
   #contact .container {
     padding: 0 15px;
   }
+  header .mainmenu_list {
+    display: none;
+  }
   footer .container {
     padding: 60px 15px;
-  }
-  header {
-    display: none;
   }
   #visual .slideshow-container {
     top: 0px;

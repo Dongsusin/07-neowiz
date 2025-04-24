@@ -21,14 +21,14 @@ export const Header = () => {
     <header className={`header ${scrolled ? "scrolled" : ""}`}>
       <div className="innerHeader">
         <nav className="mainmenu">
+          <div className="logo">
+            <a href="/02-neowiz/neowiz.html">
+              <span>
+                <img alt="" className="logo" src={logo} />
+              </span>
+            </a>
+          </div>
           <ul className="mainmenu_list">
-            <li>
-              <a href="/02-neowiz/neowiz.html">
-                <span>
-                  <img alt="" className="logo" src={logo} />
-                </span>
-              </a>
-            </li>
             <li>
               <a href="https://www.neowiz.com/aboutus">
                 <span>네오위즈</span>
